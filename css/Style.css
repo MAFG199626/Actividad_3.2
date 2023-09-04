@@ -1,0 +1,44 @@
+body{
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: beige;
+    border-radius: 15px;
+
+}
+
+header h1{
+    color: blue;
+    padding-bottom: 10px;
+    font-size: 50px;
+
+}
+
+nav>ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+
+}
+nav>ul>li{flex-grow: 1;}
+
+nav>ul>li>a:hover{
+    background-color: lightcoral;
+}
+
+.Alinear{
+    width: 100px;
+    height: 100px;
+}
+
+.PiePag{
+
+    background-color: rgb(221, 217, 228);
+
+}
